@@ -1,0 +1,338 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>MIT OpenCourseWare | Electrical Engineering and Computer Science | 6.092 Introduction to Programming in Java, January IAP 2010 | Syllabus</title>
+<!-- Begin Automatic Metadata Insertion --><meta content="6-092-introduction-to-programming-in-java-january-iap-2010" name="WT.cg_n">
+<meta content="Syllabus" name="WT.cg_s">
+<meta content="Syllabus" name="Title">
+<meta content="This section contains a course description and instructions for installing Java and Eclipse." name="Description">
+<meta content="Jones, Evan" name="Author">
+<meta content="Marcus, Adam" name="Author">
+<meta content="Wu, Eugene" name="Author">
+<meta content="software engineering,Java fundamentals,methods,conditionals,loops,arrays,objects,classes,object oriented programming,access control,class scope,design,debugging,interfaces,inheritance,exceptions,input/output" name="Keyword">
+<meta content="" name="Version">
+<meta content="6.092 Introduction to Programming in Java | Syllabus" name="Search_Display">
+<!-- End Automatic Metadata Insertion --><link title="default" rel="stylesheet" type="text/css" href="../../common/styles/common.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../common/styles/jquery.bubblepopup.css">
+<link title="default" rel="stylesheet" type="text/css" href="../../common/styles/courses.css">
+<link href="http://ocw.mit.edu/xml/ocwcc.rdf" type="application/rdf+xml" rel="metadata">
+<script type="text/javascript" src="../../common/scripts/common-utils-offline.js"></script><script type="text/javascript" src="../../common/scripts/jquery.bubblepopup.min.js"></script><script type="text/javascript" src="../../common/scripts/bubble-popup-offline.js"></script>
+</head>
+<body id="home">
+        <a href="#main" class="skip" tabindex="-1">skip to content</a> <a id="top"></a>
+        <div id="container">
+            
+            
+                
+	
+
+
+<div id="portletwrapper-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d686561646572" class="portletWrapper kssattr-portlethash-6f63772e746f70706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d686561646572">
+<div class="portletStaticText portlet-static-site-header"><div id="page_header">
+<div class="logo"><h1><a href="http://ocw.mit.edu/"><img height="36" width="289" alt="MIT OpenCourseWare" src="../../common/images/logo-ocw-home_new.gif"></a></h1></div>     <div class="header_links">
+<div class="newsletter_icon"><a href="http://ocw.mit.edu/jsp/subscribe.jsp?utm_source=header"><img alt="Subscribe to OCW's newsletter." title="Subscribe to OCW's newsletter." src="../../common/images/newsletter.png"></a></div>         <div class="social_media_icons">
+<a style="float: left;" href="http://twitter.com/mitocw"><img alt="Follow OCW on Twitter." title="Follow OCW on Twitter." src="../../common/images/twitter.png"></a>             <a style="float: right;" href="http://facebook.com/mitocw"><img alt="Follow OCW on Facebook." title="Follow OCW on Facebook." src="../../common/images/facebook.png"></a>
+</div>
+</div>
+</div></div>
+
+</div>
+
+
+
+
+
+<div id="primary_nav">
+<ul id="nav">
+<li class="">
+<a href="http://ocw.mit.edu/">Home</a>
+    </li>
+	<li class="first active">
+<a href="http://ocw.mit.edu/courses/">Courses</a>
+    </li>
+	<li class="">
+<a href="http://ocw.mit.edu/donate">Donate</a>
+    </li>
+	<li class="">
+<a href="http://ocw.mit.edu/about/">About OCW</a>
+    </li>
+    
+   
+</ul>
+<!-- begin search area, inputs are placed inside div blocks to validate xhtml strict --><form method="get" action="../../common/search/AdvancedSearch.htm">
+<div class="searchform">
+    <input type="text" onblur="fillSearchBox()" onfocus="clearSearchBox()" maxlength="255" value="Enter search keyword" name="q" class="search" id="terms"><input type="image" alt="Go" src="../../common/images/go_new.gif" name="btnG" class="but"><a href="../../common/search/AdvancedSearch.htm">Advanced Search</a>
+</div>
+</form>
+<!-- end search area -->
+<ul id="secondary_nav">
+<li class="first"><a href="http://ocw.mit.edu/help">Help</a></li>
+    <li><a href="../../common/jsp/feedback.htm">Contact Us</a></li>
+</ul>
+<!-- end Primary Nav -->
+</div>
+
+            
+            
+            <div id="main">
+                
+                <div id="local_navigation">
+                    
+
+
+
+
+<div class="get_started">
+	<ul>
+<li><a href="http://ocw.mit.edu/courses">VIEW ALL COURSES</a></li>
+	</ul>
+</div>
+
+<script language="javascript" type="text/javascript">
+function toggleMenu(objID) {
+  if (!document.getElementById) return;
+  var ob = document.getElementById(objID);
+  ob.className = (ob.className == 'selected')?'': 'selected';
+}
+
+function toggleClass(id)
+{
+  var divtoggleClass= document.getElementById(id);
+  divtoggleClass.className = (divtoggleClass.className == 'mO')?'mC': 'mO';
+  return false;
+}
+function changeAlt(id)
+{
+  id.alt = (id.alt == 'Expand Menu')?'Collapse Menu' : 'Expand Menu';
+  id.title = (id.title == 'Expand Menu')?'Collapse Menu' : 'Expand Menu';
+}
+</script><!--Left Nav Starts --><div class="get_started">
+	    
+	        <div>
+               <ul>
+<li> 
+		           <a href="../../contents/index.htm" class="">Course Home</a>
+		        </li>
+                </ul>
+</div>
+	        
+		
+	    
+	        <div>
+               <ul>
+<li> 
+		           <a href="../../contents/syllabus/index.htm" class="selected">Syllabus</a>
+		        </li>
+                </ul>
+</div>
+	        
+		
+	    
+	        <div>
+               <ul>
+<li> 
+		           <a href="../../contents/lecture-notes/index.htm" class="">Lecture Notes</a>
+		        </li>
+                </ul>
+</div>
+	        
+		
+	    
+	        <div>
+               <ul>
+<li> 
+		           <a href="../../contents/assignments/index.htm" class="">Assignments</a>
+		        </li>
+                </ul>
+</div>
+	        
+		
+	    
+	        <div>
+               <ul>
+<li> 
+		           <a href="../../contents/related-resources/index.htm" class="">Related Resources</a>
+		        </li>
+                </ul>
+</div>
+	        
+		
+	    
+	        <div>
+               <ul></ul>
+</div>
+	        
+		
+	</div>
+	
+
+<!--Left Nav Ends -->
+
+
+
+<div class="get_started">
+	<div class="leftNavSubhead">Archived Versions</div>
+	<ul>
+<li><a href="http://hdl.handle.net/1721.1/55912" title="January IAP 2009">January IAP 2009</a></li>
+	</ul>
+</div>
+
+
+
+
+
+
+
+
+
+                </div>
+                
+                               
+                <div id="content_body">
+        <div class="page_links">
+            <div class="breadcrumb">
+                <div id="portal-breadcrumbs">
+
+    <a href="http://ocw.mit.edu/">Home</a>
+    <span class="breadcrumbSeparator">
+        &gt;
+        
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://ocw.mit.edu/courses">Courses</a>
+            <span class="breadcrumbSeparator">
+                &gt;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science">Electrical Engineering and Computer Science</a>
+            <span class="breadcrumbSeparator">
+                &gt;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            <a href="../../contents/index.htm">Introduction to Programming in Java</a>
+            <span class="breadcrumbSeparator">
+                &gt;
+                
+            </span>
+            
+         
+    </span>
+    <span dir="ltr">
+        
+            
+            
+            <span>Syllabus</span>
+         
+    </span>
+</div>
+
+            </div>
+        </div>
+        <div id="main_content_course">
+            <div id="courses_inner">
+                <h1>
+        <span class="" id="parent-fieldname-title">
+            Syllabus
+        </span>
+    </h1>
+                <div class="clear"></div>
+                <div class="mod8">
+                    
+                    
+        <div class="" id="parent-fieldname-text">
+             <h2 class="subhead">Course Meeting Times</h2> <p>Lectures: 2 sessions / week for 4 weeks, 1 hour / session</p> <p>Labs: 2 sessions / week for 4 weeks, 1 hour / session</p> <h2 class="subhead">Description</h2> <p>This course is an introduction to software engineering, using the Java™ programming language. It covers concepts useful to 6.005. Students will learn the fundamentals of Java. The focus is on developing high quality, working software that solves real problems.</p> <p>The course is designed for students with some programming experience, but if you have none and are motivated you will do fine. Students who have taken 6.005 should not take this course. Each class is composed of one hour of lecture and one hour of assisted lab work.</p> <h2 class="subhead">Installing Java and Eclipse</h2> <p>To write Java programs, you need two things: the Java Development Kit (JDK), and a source code editor. Please follow these directions before the first class, so you can get started on the first assignment faster. If you run into difficulty, we can help you during the first class.</p> <p>The Java Development Kit contains the tools needed to compile and run Java programs. The source code editor lets you write programs, and has features to make this easier. For this course, you can use any tool you like, but we recommend Eclipse, and will demonstrate it during the first lecture.</p> <h2 class="subhead">Editors</h2> <p>To write programs, you need a piece of software called an editor. They come in two flavors: simple source code editors, or complex integrated development environments. For this course, we recommend using the Eclipse Integrated Development Environment (IDE), but it is useful to be aware of the options that are available to you.</p> <h3 class="subsubhead">Source Code Editors</h3> <p>A source code editor is a program for editing text, like a word processor, but it has features which make it easier to read and write computer programs. An advantage of using a plain source code editor is that they are usually lightweight applications that are easy to learn and use. Additionally, the editors typically support many programming languages, so you can use the same tool for all your work. The disadvantage is that you will need to use the command line to run the compiler, and to organize larger projects.</p> <p>For Windows, some popular source code editors are <a href="http://www.scintilla.org/SciTE.html">SciTE</a>, <a href="http://www.ultraedit.com/products/ultraedit.html">UltraEdit</a>, <a href="http://www.zeusedit.com/">Zeus</a> (<a href="http://www.zeusedit.com/lite/index.html">old free version</a>), or <a href="http://www.jedit.org/">jEdit</a>. Mac users might want to look at <a href="http://macromates.com/">TextMate</a>, <a href="http://www.codingmonkeys.de/subethaedit/">SubEthaEdit</a> (<a href="http://www.codingmonkeys.de/subethaedit/old.html">old free version</a>), <a href="http://www.barebones.com/products/TextWrangler/">TextWrangler</a>, or <a href="http://www.jedit.org/">jEdit</a>. (Note: some of these are trial versions of software that you need to purchase.)</p> <h3 class="subsubhead">Integrated Development Environments (IDEs)</h3> <p>Most professional Java developers use an integrated development environment (IDE), which combines a source code editor with other tools for software development. They make it easy to find and correct errors, and to accomplish tasks through a graphical interface, instead of the command line. In this class, we recommend using <a href="http://www.eclipse.org/">Eclipse</a>. Other popular IDEs for Java include <a href="http://netbeans.org/">NetBeans</a> and <a href="http://www.jetbrains.com/idea/">IntelliJ IDEA</a>.</p> <h2 class="subhead">Windows</h2> <h3 class="subsubhead">Install the Sun Java 6 JDK</h3> <p>You want to install the Java Standard Edition (SE) development kit (JDK). You can find this through Sun's <a href="http://java.sun.com/javase/downloads/index.jsp">Java download site</a>, but follow these directions for the direct link:</p> <ol>
+<li>Go to the <a href="http://java.sun.com/javase/downloads/widget/jdk6.jsp">Java SE JDK</a> download page.</li> <li>On the left side, under Platform, select Windows.</li> <li>Click the Download button.</li> <li>Click the "Skip this step" link at the bottom of the dialog box that pops up.</li> <li>Wait for your download to finish.</li> <li>Run the installer and follow the directions. Accept the default settings.</li> </ol>
+<h3 class="subsubhead">Install Eclipse</h3> <p>You want the Eclipse IDE for Java developers. You can find this on the <a href="http://www.eclipse.org/downloads/">Eclipse download site</a>, but follow these directions for the direct link:</p> <ol>
+<li>
+<a href="http://www.eclipse.org/downloads/">Download the Eclipse IDE for Java Developers</a><span class="nobr">.</span>
+</li> <li>Open the zip file that you downloaded. It contains a single folder named eclipse.</li> <li>Drag and drop the eclipse folder into C:\Program Files, and perhaps rename it Eclipse. You can actually put the folder anywhere, but C:\Program Files is the typical location.</li> <li>Start Eclipse by double clicking on eclipse.exe.</li> <li>Optional: To make it easy to find in the future, create a shortcut from eclipse.exe your Desktop, and rename it Eclipse (drag with the right mouse button to create a shortcut).</li> </ol>
+<h2 class="subhead">Mac OS X</h2> <p>Mac OS X comes with the Java development tools. Run Software Update to ensure that you have the latest version installed (Apple Menu → Software Update).</p> <h3 class="subsubhead">Install Eclipse</h3> <ol>
+<li>
+<a href="http://www.eclipse.org/downloads/">Download the Eclipse IDE for Java Developers</a><span class="nobr">.</span>
+</li> <li>Open the archive file that you downloaded (Safari may have expanded it automatically for you).</li> <li>Drag and drop the eclipse folder anywhere you want it (your Desktop may be a good place).</li> <li>Run Eclipse by double clicking the Eclipse application inside the eclipse folder.</li> </ol>
+<h2 class="subhead">Linux</h2> <p>If you are using Linux, you probably don't need our help to get Java and Eclipse running yourself. If you do need help, ask one of the instructors during the first lecture.</p>
+            
+        </div>
+    
+                    
+
+
+
+
+
+                    
+                    
+                    
+                    
+        <div class="" id="parent-fieldname-bottomtext">
+            
+            
+        </div>
+    
+                                       
+                </div>
+<!-- mod8 ends -->
+            </div>
+<!-- courses_inner ends -->
+            
+        </div>
+<!-- main_content_course ends -->
+      </div>
+<!-- content_body END -->
+                                
+            </div>
+<!-- main end -->
+            <div id="footer">
+                
+<div id="portletwrapper-6f63772e626f74746f6d706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d666f6f746572" class="portletWrapper kssattr-portlethash-6f63772e626f74746f6d706f72746c65746d616e616765720a636f6e746578740a2f506c6f6e650a736974652d666f6f746572">
+<div class="portletStaticText portlet-static-site-footer"><div class="footer">
+<div class="footer_logo">
+<a href="http://web.mit.edu"> 
+<img width="65" height="35" align="top" title="MIT Logo" src="../../common/images/trans.gif" alt="MIT Logo"></a>  
+<a href="../../common/terms/index.htm"> 
+<img width="100" height="13" align="top" title="Copyright MIT" src="../../common/images/trans.gif" alt="Copyright MIT"></a>
+</div>
+<div class="footer_links">
+<ul>
+<li class="first">
+<a href="http://ocw.mit.edu/about/rss/">
+<img width="32" height="15" align="absbottom" src="../../common/images/footer_rss_new.gif" alt="RSS Feeds"></a> 
+<a href="http://ocw.mit.edu/about/rss/">RSS Feeds</a>
+</li>
+    <li><a href="../../common/terms/index.htm">Privacy and Terms of Use</a></li>
+    <li><a href="http://ocw.mit.edu/help/site-map/">Site Map</a></li>
+    <li><a href="http://ocw.mit.edu/help/faq-cite-ocw-content/">Cite OCW Content</a></li>
+</ul>
+<p>Your use of the MIT OpenCourseWare site and course materials is subject to our Creative Commons License and other terms  of use.</p>
+<!-- end footer links -->
+</div>
+<div class="license">
+<a class="first" href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" rel="license" target="_blank"><img width="80" height="15" src="../../common/images/cc_logo_new.gif" alt="Creative Commons - some rights reserved"></a><br><a class="first" href="http://www.ocwconsortium.org/" target="_blank">
+<img width="80" height="44" src="../../common/images/ocw-logo_new.gif" alt="OCW Consortium"></a>
+</div>
+</div></div>
+
+</div>
+
+
+
+
+
+                
+            </div>
+<!-- footer end -->
+        </div>
+<!-- container end -->    
+      </body>
+</html>
